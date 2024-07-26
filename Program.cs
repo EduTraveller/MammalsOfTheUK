@@ -17,6 +17,8 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.R
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
+// Register the WeatherForecastService
+builder.Services.AddSingleton<WeatherForecastService>(); // Add this line
 
 var app = builder.Build();
 

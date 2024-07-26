@@ -78,3 +78,4 @@
 /Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.pdb
 /Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.genruntimeconfig.cache
 /Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/ref/MammalsOfTheUK.dll
+/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.sourcelink.json
