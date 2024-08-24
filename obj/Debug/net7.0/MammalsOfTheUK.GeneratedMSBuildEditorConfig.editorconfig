@@ -34,6 +34,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/Pages/Mammals.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFtbWFscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/Pages/MammalsProfile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFtbWFsc1Byb2ZpbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/Shared/LoginDisplay.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0xvZ2luRGlzcGxheS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

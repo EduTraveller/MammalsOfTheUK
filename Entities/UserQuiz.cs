@@ -1,6 +1,6 @@
 
 /* <summary>
-   Represents a User Quiz association, linking users to quizzes they have taken.
+   Represents an User Quiz association, linking users to quizzes they have taken.
    Author: Eduardo
    Last Modified: 25/07/2024
 */
@@ -9,7 +9,7 @@ using System.ComponentModel.DataAnnotations; // Import DataAnnotations for valid
 
 namespace MammalsOfTheUK.Entities
 {
-    // Represents a User Quiz association
+    // Represents an User Quiz association
     public class UserQuiz
     {
         // Unique identifier for the user

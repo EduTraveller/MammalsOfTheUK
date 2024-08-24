@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TlKgfFnwDfcRo78K357YdXnEqB/UTgZ48MdK6rRfzfE=",
+  "Hash": "hTUjB2umBHXjzdML111hbRUId7yXhuXf6pjonkE92KQ=",
   "Source": "MammalsOfTheUK",
   "BasePath": "_content/MammalsOfTheUK",
   "Mode": "Default",
@@ -1556,12 +1556,12 @@
       "OriginalItemSpec": "wwwroot/Images/Mammals/grey_seal.jpg"
     },
     {
-      "Identity": "/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/wwwroot/Images/Mammals/hedgehog.jpeg",
+      "Identity": "/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/wwwroot/Images/Mammals/hedgehog.jpg",
       "SourceId": "MammalsOfTheUK",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/wwwroot/",
       "BasePath": "_content/MammalsOfTheUK",
-      "RelativePath": "Images/Mammals/hedgehog.jpeg",
+      "RelativePath": "Images/Mammals/hedgehog.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1572,7 +1572,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Images/Mammals/hedgehog.jpeg"
+      "OriginalItemSpec": "wwwroot/Images/Mammals/hedgehog.jpg"
     },
     {
       "Identity": "/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/wwwroot/Images/Mammals/mountain_hare.jpg",
@@ -1632,12 +1632,12 @@
       "OriginalItemSpec": "wwwroot/Images/Mammals/red_deer.jpg"
     },
     {
-      "Identity": "/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/wwwroot/Images/Mammals/red_fox.jpeg",
+      "Identity": "/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/wwwroot/Images/Mammals/red_fox.jpg",
       "SourceId": "MammalsOfTheUK",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/wwwroot/",
       "BasePath": "_content/MammalsOfTheUK",
-      "RelativePath": "Images/Mammals/red_fox.jpeg",
+      "RelativePath": "Images/Mammals/red_fox.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1648,7 +1648,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Images/Mammals/red_fox.jpeg"
+      "OriginalItemSpec": "wwwroot/Images/Mammals/red_fox.jpg"
     },
     {
       "Identity": "/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/wwwroot/Images/Mammals/red_squirrel.jpg",
@@ -1708,12 +1708,12 @@
       "OriginalItemSpec": "wwwroot/Images/Quiz/1.jpg"
     },
     {
-      "Identity": "/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/wwwroot/Images/Quiz/2.jpeg",
+      "Identity": "/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/wwwroot/Images/Quiz/2.jpg",
       "SourceId": "MammalsOfTheUK",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/wwwroot/",
       "BasePath": "_content/MammalsOfTheUK",
-      "RelativePath": "Images/Quiz/2.jpeg",
+      "RelativePath": "Images/Quiz/2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1724,7 +1724,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Images/Quiz/2.jpeg"
+      "OriginalItemSpec": "wwwroot/Images/Quiz/2.jpg"
     },
     {
       "Identity": "/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/wwwroot/Images/Quiz/3.jpg",

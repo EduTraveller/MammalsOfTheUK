@@ -26,8 +26,7 @@ namespace MammalsOfTheUK.Data
                 .HasKey(uq => new { uq.UserID, uq.QuizID });
 
             builder.Entity<RiskCategory>()
-                .HasKey(uq => new { uq.MammalID});
-                  
+                .HasKey(uq => new { uq.MammalID });
 
             // Additional configurations if needed
         }

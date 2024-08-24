@@ -1,0 +1,73 @@
+@page "/Mammals"
+
+@using MammalsOfTheUK.Entities;
+@inject MammalsOfTheUK.Data.ApplicationDbContext dbContext
+
+<PageTitle>Mammals</PageTitle>
+
+<h1>Mammals</h1>
+
+<p>Explore the diverse and fascinating world of mammals that inhabit the United Kingdom. From the bustling cities to the tranquil countryside, the UK is home to a wide variety of mammalian species, each with its unique characteristics and ecological importance.</p>
+
+<h2>Overview of UK Mammals</h2>
+
+<p>Discover the Diversity... The UK boasts a rich diversity of mammals, ranging from tiny shrews to majestic deer. These mammals play vital roles in their ecosystems, contributing to biodiversity and helping to maintain ecological balance. On this page, you'll find detailed profiles of various species, their habitats, behaviours, and conservation statuses.</p>
+
+@foreach (var mammal in mammals.ToList())
+{
+    <div style="display: flex; align-items: center; margin-bottom: 20px;">
+        <img src="Images/Mammals/@mammal.Image" alt="Mammal Image" style="width: 200px; margin-right: 20px;" />
+        <div>
+            <h3>
+                <a href="/MammalsProfile/@mammal.MammalID">@mammal.CommonName (@mammal.ScientificName)</a>
+            </h3>
+            <p>
+                @if (mammal.CommonName == "Red Fox") 
+                {
+                    <text>Elegant and cunning, the Red Fox is easily recognised by its striking russet fur. Adaptable and intelligent, they thrive in both rural and urban environments, making them one of the most successful and widespread wild mammals.</text>
+                }
+                else if (mammal.CommonName == "Badger") 
+                {
+                    <text>With distinctive black-and-white stripes, badgers are social and sturdy animals. They live in complex burrows called setts and are expert diggers, playing a vital role in their woodland habitats.</text>
+                }
+                else if (mammal.CommonName == "European Otter") 
+                {
+                    <text>Graceful swimmers and skilled hunters, European Otters are known for their sleek, dark fur and playful behaviour. They are most often found near clean rivers and lakes, where they thrive on a diet of fish and small aquatic creatures.</text>
+                }
+                else if (mammal.CommonName == "Grey Seal") 
+                {
+                    <text>Grey Seals are robust marine mammals distinguished by their large size and spotted grey coat. Commonly found along rocky coastlines and sandy beaches, they are proficient swimmers and spend much of their time hunting for fish in the sea.</text>
+                }
+                else if (mammal.CommonName == "Hedgehog") 
+                {
+                    <text>Recognisable by their spiny coat, Hedgehogs are nocturnal foragers that feast on insects, worms, and small invertebrates. They are solitary creatures and often curl into a ball for protection when threatened.</text>
+                }
+                else if (mammal.CommonName == "Mountain Hare") 
+                {
+                    <text>Adapted to cold environments, the Mountain Hare features a seasonal coat that changes from brown to white in winter. Found in upland areas, they are well-suited to the harsh conditions of mountainous regions, where they are known for their impressive speed and agility.</text>
+                }
+                else if (mammal.CommonName == "Pine Marten") 
+                {
+                    <text>With a bushy tail and golden-yellow throat patch, the Pine Marten is a shy, agile predator that thrives in wooded areas. They are skilled climbers and rely on a diet of small mammals, birds, and fruits.</text>
+                }
+                else if (mammal.CommonName == "Red Deer") 
+                {
+                    <text>As the largest wild land mammal in the UK, the Red Deer is noted for its impressive antlers and majestic stature. They are typically found in forests and moorlands, where they graze on grasses, leaves, and bark.</text>
+                }
+                else if (mammal.CommonName == "Red Squirrel") 
+                {
+                    <text>Renowned for its vibrant reddish-brown fur and tufted ears, the Red Squirrel is a smaller and more elusive relative of the Grey Squirrel. Preferring coniferous woodlands, they primarily feed on nuts and seeds.</text>
+                }
+                else if (mammal.CommonName == "Stoat") 
+                {
+                    <text>Known for its sleek body and distinctive white winter coat, the Stoat is a nimble predator of small mammals and birds. They are agile hunters, adept at weaving through underbrush and snow to catch their prey.</text>
+                }
+            </p>
+        </div>
+    </div>
+}
+
+@code
+{
+    private IQueryable<Mammal> mammals => dbContext.Mammals;
+}

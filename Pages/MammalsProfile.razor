@@ -1,0 +1,46 @@
+@page "/MammalsProfile/{mammalID:int}"
+
+@using MammalsOfTheUK.Entities
+@inject MammalsOfTheUK.Data.ApplicationDbContext dbContext
+
+@code {
+    [Parameter]
+    public int mammalID { get; set; }
+
+    private Mammal? mammal;
+
+    protected override void OnInitialized()
+    {
+        mammal = dbContext.Mammals.FirstOrDefault(m => m.MammalID == mammalID);
+    }
+}
+
+@if (mammal == null)
+{
+    <p>Mammal not found.</p>
+}
+else
+{
+    <h1 style="text-align: center;">@mammal.CommonName</h1>
+    <h2 style="text-align: center; font-size: smaller; font-style: italic;">(@mammal.ScientificName)</h2>
+    <div style="text-align: center; margin-top: 20px;">
+        <img src="Images/Mammals/@mammal.Image" alt="@mammal.CommonName Image" style="width: 500px;" />
+    </div>
+    <div style="margin-top: 20px;">
+        <p>@mammal.Description</p>
+        <h3>Quick facts:</h3>
+        <hr />
+        <ul>
+            <li><strong>Family:</strong> @mammal.Family</li>
+            <li><strong>Habitat:</strong> @mammal.Habitat</li>
+            <li><strong>Diet:</strong> @mammal.Diet</li>
+            <li><strong>Origin:</strong> @mammal.Origin</li>
+            <li><strong>Predators:</strong> @mammal.Predators</li>
+            <li><strong>Looks Like:</strong> @mammal.LooksLike</li>
+            <li><strong>Risk Level (England):</strong> @mammal.England?.ToString()</li>
+            <li><strong>Risk Level (Wales):</strong> @mammal.Wales?.ToString()</li>
+            <li><strong>Risk Level (Scotland):</strong> @mammal.Scotland?.ToString()</li>
+            <li><strong>Risk Level (Northern Ireland):</strong> @mammal.NorthernIreland?.ToString()</li>
+        </ul>
+    </div>
+}

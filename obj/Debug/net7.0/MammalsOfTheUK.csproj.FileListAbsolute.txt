@@ -1,3 +1,12 @@
+/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.csproj.AssemblyReference.cache
+/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.GeneratedMSBuildEditorConfig.editorconfig
+/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.AssemblyInfoInputs.cache
+/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.AssemblyInfo.cs
+/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.csproj.CoreCompileInputs.cache
+/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.MvcApplicationPartsAssemblyInfo.cache
+/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.RazorAssemblyInfo.cache
+/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.RazorAssemblyInfo.cs
+/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.sourcelink.json
 /Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/bin/Debug/net7.0/appsettings.Development.json
 /Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/bin/Debug/net7.0/appsettings.json
 /Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/bin/Debug/net7.0/MammalsOfTheUK.staticwebassets.runtime.json
@@ -52,15 +61,7 @@
 /Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/bin/Debug/net7.0/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll
-/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.csproj.AssemblyReference.cache
-/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.GeneratedMSBuildEditorConfig.editorconfig
-/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.AssemblyInfoInputs.cache
-/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.AssemblyInfo.cs
-/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.csproj.CoreCompileInputs.cache
 /Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.MvcApplicationPartsAssemblyInfo.cs
-/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.MvcApplicationPartsAssemblyInfo.cache
-/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.RazorAssemblyInfo.cache
-/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.RazorAssemblyInfo.cs
 /Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/staticwebassets.build.json
 /Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/staticwebassets.development.json
 /Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/staticwebassets/msbuild.MammalsOfTheUK.Microsoft.AspNetCore.StaticWebAssets.props
@@ -78,4 +79,3 @@
 /Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.pdb
 /Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.genruntimeconfig.cache
 /Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/ref/MammalsOfTheUK.dll
-/Users/edutraveller/Desktop/MammalsOfTheUK/MammalsOfTheUK/obj/Debug/net7.0/MammalsOfTheUK.sourcelink.json
