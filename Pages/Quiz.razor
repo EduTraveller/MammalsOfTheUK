@@ -1,0 +1,63 @@
+@page "/quiz"
+
+@using MammalsOfTheUK.Entities;
+@inject MammalsOfTheUK.Data.ApplicationDbContext dbContext
+
+<PageTitle>Quiz</PageTitle>
+
+<h3>Test Your Knowledge About UK Mammals!</h3>
+<p style="font-size: smaller;">
+    Think you know all about the amazing mammals that roam the UK? Test your knowledge with our fun and educational quiz! Answer the following 10 questions to see how much you know about the behaviour, habitats, and characteristics of these fascinating creatures. Good luck!
+</p>
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-center row">
+        <div class="col-md-10 col-lg-10">
+            <div class="d-flex justify-content-around mb-4">
+                <img src="Images/Quiz/1.jpg" alt="Image 1" style="width: 400px;" />
+                <img src="Images/Quiz/2.jpg" alt="Image 2" style="width: 400px;" />
+                <img src="Images/Quiz/3.jpg" alt="Image 3" style="width: 400px;" />
+            </div>
+
+            @if (questions.Any())
+            {
+                foreach (var question in questions)
+                {
+                    <div class="border">
+                        <div class="question bg-white p-3 border-bottom">
+                            <div class="d-flex flex-row align-items-center question-title">
+                                <h3 class="text-danger">Q.</h3>
+                                <h5 class="mt-1 ml-2">@question.QuestionText</h5>
+                            </div>
+                            <div class="ans ml-2">
+                                <label class="radio"> <input type="radio" name="@question.QuestionID" value="@question.OptionA"> <span>@question.OptionA</span> </label>
+                            </div>
+                            <div class="ans ml-2">
+                                <label class="radio"> <input type="radio" name="@question.QuestionID" value="@question.OptionB"> <span>@question.OptionB</span> </label>
+                            </div>
+                            <div class="ans ml-2">
+                                <label class="radio"> <input type="radio" name="@question.QuestionID" value="@question.OptionC"> <span>@question.OptionC</span> </label>
+                            </div>
+                            <div class="ans ml-2">
+                                <label class="radio"> <input type="radio" name="@question.QuestionID" value="@question.OptionD"> <span>@question.OptionD</span> </label>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <p>Loading questions...</p>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    private List<Question> questions = new List<Question>();
+
+    protected override void OnInitialized()
+    {
+        questions = dbContext.Questions.ToList(); 
+    }
+}
